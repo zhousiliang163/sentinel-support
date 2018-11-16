@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2018-09-08
  */
 @Slf4j
-public abstract class WxAbstractJdbcDataSource<T> implements ReadableDataSource<List<Map<String, Object>>, T>, WritableDataSource<T> {
+public abstract class WxAbstractJdbcDataSource<T> implements  WritableDataSource<T> {
 
     /**
      * sql: find app_id by appName,ip,port, only enabled and not deleted
